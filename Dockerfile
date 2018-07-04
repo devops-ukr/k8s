@@ -1,2 +1,2 @@
-# k8s
-# k8s
+FROM nginx
+RUN yum -y update && yum install -y curl
