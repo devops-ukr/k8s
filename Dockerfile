@@ -1,2 +1,2 @@
 FROM nginx
-RUN yum -y update && yum install -y curl
+RUN  apt-get -y update && apt-get install -y curl
